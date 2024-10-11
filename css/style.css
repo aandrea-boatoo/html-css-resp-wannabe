@@ -144,6 +144,10 @@ img {
 }
 
 @media screen and (max-width:576px) {
+
+    .container{
+        width: 100vw;
+    }
     .row{
         display: block;
         margin: 0 auto;
@@ -153,16 +157,22 @@ img {
         margin: 0 auto;
     }
 
-    .container{
-        width: 100vw;
-    }
-    
-    .why-us{
-        background-color: #333333;
+    .steps{
+        margin-bottom: 0;
     }
 
     .steps p{
         width: 200px;
+    }
+    
+    .why-us{
+        background-color: #333333;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+
+   .why-us li:last-child{
+        margin: 0;
     }
     
 }
